@@ -7,6 +7,23 @@
 
 ---
 
+## 2026-06-27
+
+### Lancement du projet DevisExpress
+- MVP planifié : app mobile React Native (iOS + Android via Expo) pour créer des devis professionnels en moins d'une minute par la voix ou formulaire
+- Stack validée : Expo + Supabase (auth/DB/storage) + OpenAI Whisper (voix) + Claude API (parsing) + PDF export
+- 5 fonctionnalités MVP : auth, profil artisan, création devis (voix + formulaire), export PDF/partage, historique
+- Plan de dev sur 4 semaines, fichier : `livrables/applications/2026-06-27_devixpress_plan-mvp.md`
+- Prochaine étape : générer les designs via Claude Design, puis setup Expo + Supabase
+
+### Site Les Rois du Web déployé (session 26 juin)
+- Site généré via Claude Design, sauvegardé dans `livrables/sites-web/`
+- Repo GitHub créé : github.com/bibi2902/les-rois-du-web
+- Site en ligne sur GitHub Pages : https://bibi2902.github.io/les-rois-du-web/
+- Toute modification locale + push = mise en ligne automatique
+
+---
+
 ## 2026-06-24
 
 ### Installation initiale du Jarvis
